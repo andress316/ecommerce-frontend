@@ -1,0 +1,26 @@
+.Contenedor{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.ProductBox{
+    width: 250px;
+    height: 400px;
+    background-color: #23252A;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    
+
+}
+
+.imgGuitar{
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}

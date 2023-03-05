@@ -43,7 +43,7 @@ const Checkout = () => {
     const getPreferenceId = async () => {
       const token = localStorage.getItem( 'token' )
 
-      const fetchResponse = await fetch( 'http://localhost:4500/orders', {
+      const fetchResponse = await fetch( 'https://backend-ecommerce-udd.onrender.com/orders', {
         method: 'POST',
         headers: {
           "Authorization": `Bearer ${ token }`,

@@ -13,7 +13,7 @@ export default function Catalogue() {
     const obtenerCatalogue = async () => {
 
       try {
-        const response = await fetch( 'http://localhost:4500/products' )
+        const response = await fetch( 'https://backend-ecommerce-udd.onrender.com/products' )
         const products = await response.json()
         setProducts( products )
         setLoadingData( false )
